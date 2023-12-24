@@ -1,0 +1,90 @@
+/* login page start */
+
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,255,255,.9);
+    top:0; 
+    right:-105%;
+    height:100%;
+    width:100%;
+}
+.login .btn{
+    margin-top: 10px;
+    display:inline-block;
+    padding:9px 30px;
+    border-radius: 7.5px;
+    color:#fff;
+    background:var(--dark-color);
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 500;
+}.login .btn:hover{
+    background:var(--green);
+}
+.login form{
+    background:#fff;
+    border:var(--border);
+    width:400px;
+    padding:20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 7.5px;
+    margin:20px;
+}
+.login form h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    color:var(--black);
+    text-align: center;
+}
+.login form span{
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.login form .box{
+    width: 100%;
+    margin:7px 0;
+    font-size: 16px;
+    border:var(--border);
+    border-radius: 7.5px;
+    padding:10px 12px;
+    color:var(--black);
+    text-transform: none;
+}
+.login form .checkbox{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    padding:10px 0;
+}
+.login form .checkbox label{
+    font-size: 15px;
+    color:var(--light-color);
+    cursor: pointer;
+}
+.login form .btn{
+    text-align: center;
+    width:100%;
+    margin:15px 0;
+}
+.login form p{
+    padding-top: 8px;
+    color:var(--light-color);
+    font-size: 15px;
+}
+.login form p a{
+    color:var(--dark-color);
+    text-decoration: underline;
+}
+.login #close-login-btn{
+    position: absolute;
+    top:15px; right:25px;
+    font-size: 50px;
+    color:var(--black);
+    cursor: pointer;
+}
+/* login page end */
